@@ -24,6 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.exuperjun.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: exuperjun
+google_analytics: false
+
+# Styling
+accent_image: /assets/images/mwaz.jpg
+accent_color: rgb(0, 255, 152)
+theme_color:  rgb(0, 255, 152)
 
 # Build settings
 theme: jekyll-theme-hydejack
