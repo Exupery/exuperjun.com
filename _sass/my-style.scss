@@ -3,6 +3,11 @@ html, body {
   color: #FFFFFF;
 }
 
+a,
+hy-push-state a {
+  color: #FFF468;
+}
+
 a:hover,
 .sidebar a:hover {
   color: #00FF98;
@@ -11,4 +16,9 @@ a:hover,
 clap-button,
 .message {
   display: none;
+}
+
+a.external::after, a[href*="://"]:not(.no-mark-external):not(.no-mark)::after,
+a.no-push-state:not(.no-mark-external):not(.no-mark)::after {
+  content: none;
 }
