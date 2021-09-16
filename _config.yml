@@ -28,6 +28,11 @@ favicon: /assets/images/icons/favicon.ico
 apple_touch_icon: /assets/images/icons/apple-touch-icon.png
 google_analytics: false
 
+# Menu
+menu:
+  - title: Addons
+    url:   /addons/
+
 # Styling
 accent_image: /assets/images/mwaz.jpg
 accent_color: rgb(0, 255, 152)
