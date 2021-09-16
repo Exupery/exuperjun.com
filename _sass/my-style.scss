@@ -3,12 +3,12 @@ html, body {
   color: #FFFFFF;
 }
 
-a,
-hy-push-state a {
+a:hover {
   color: #FFF468;
 }
 
-a:hover,
+a,
+hy-push-state a,
 .sidebar a:hover {
   color: #00FF98;
 }
