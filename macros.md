@@ -63,7 +63,7 @@ This will taunt an enemy's pet if present, otherwise your mouseover if an enemy,
 
 ## General macros
 
-## Drink
+### Drink
 Replace the second `use` with whatever mana drink you use and this allows you to have a single keybind that will use mana food if you have it and otherwise will use the bought food.
 ```
 #showtooltip Ambroria Dew
@@ -71,7 +71,7 @@ Replace the second `use` with whatever mana drink you use and this allows you to
 /use Ambroria Dew
 ```
 
-## Target teammates
+### Target teammates
 I don't like to use the native Blizzard keybindings for targeting `party1` and `party2` because if the teammate has a pet and you press the keybind a second time it will target their pet. Using a macro prevents that and will only target the party member.
 ```
 /target party1
@@ -81,8 +81,8 @@ I don't like to use the native Blizzard keybindings for targeting `party1` and `
 /target party2
 ```
 
-## Nameplate numbers
-This will replace arena enemy names with their number if you don't want to use an addon like [Arena Names](https://www.curseforge.com/wow/addons/arena-names to do so (this needs to be ran each time you log in)
+### Nameplate numbers
+This will replace arena enemy names with their number if you don't want to use an addon like [Arena Names](https://www.curseforge.com/wow/addons/arena-names) to do so (this needs to be ran each time you log in)
 ```
 /run local U=UnitIsUnit hooksecurefunc("CompactUnitFrame_UpdateName",function(F)if IsActiveBattlefieldArena()and F.unit:find("nameplate")then for i=1,3 do if U(F.unit,"arena"..i)then F.name:SetText(i)F.name:SetTextColor(1,1,0)break end end end end)
 ```
