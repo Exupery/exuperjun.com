@@ -32,6 +32,8 @@ google_analytics: false
 menu:
   - title: Addons
     url:   /addons/
+  - title: Macros
+    url:   /macros/
 
 # Styling
 accent_image: /assets/images/mwaz.jpg
