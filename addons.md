@@ -33,5 +33,6 @@ These aren't absolutely necessary but are useful for the purposes they serve
 * [Pawn](https://www.curseforge.com/wow/addons/pawn) - Allows comparing an item to the one currently equipped to better determine if an item is an upgrade or not.
 * [SavedInstances](https://www.curseforge.com/wow/addons/saved_instances) - Allows easily seeing currencies/lockouts/etc across all characters
 * [ArkInventory](https://www.curseforge.com/wow/addons/ark-inventory) - Inventory addon that allows splitting/organizing bags by various criteria
+* [TrufiGCD](https://www.curseforge.com/wow/addons/trufigcd) - Shows last used abilities of self/party/arena/whoever, I don't really do anything with this in realtime but it's sometimes useful when rewatching my games and determing which abilities were used
 * [TomTom](https://www.curseforge.com/wow/addons/tomtom) - Waypoints
 
