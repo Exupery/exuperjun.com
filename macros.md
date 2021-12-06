@@ -81,6 +81,14 @@ I don't like to use the native Blizzard keybindings for targeting `party1` and `
 /target party2
 ```
 
+### Dealing with Empyrean Domain's brightness
+This macro will toggle between normal brightness (Blizz's default of 50) and a much lower brightness setting, useful for not getting blinded on Empyrean Domain. Just press it when you zone into ED (or wherever) to lower the brightness and then press it again after the match to return it to normal.
+
+If your normal brightness setting is something other than the default of `50` then replace the two occurances of `50` below with whatever value you have under System -> Advanced -> Brightness. Can likewise replace the `32` below to alter the "dimmed" value when toggled.
+```
+/run local b="Brightness";local m=GetCVar(b); if tonumber(m)==50 then m=32 else m=50 end; SetCVar(b,m); print("Brightness:",m)
+```
+
 ### Nameplate numbers
 This will replace arena enemy names with their number if you don't want to use an addon like [Arena Names](https://www.curseforge.com/wow/addons/arena-names) to do so (this needs to be ran each time you log in)
 ```
