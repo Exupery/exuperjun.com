@@ -72,13 +72,13 @@ Replace the second `use` with whatever mana drink you use and this allows you to
 ```
 
 ### Target teammates
-I don't like to use the native Blizzard keybindings for targeting `party1` and `party2` because if the teammate has a pet and you press the keybind a second time it will target their pet. Using a macro prevents that and will only target the party member.
+I don't like to use the native Blizzard keybindings for targeting `party1` and `party2` because if the teammate has a pet and you press the keybind a second time it will target their pet (this is particularly problematic if you use mousewheel up/down to target arena partners). Using a macro prevents that and will only target the actual party member. The `party2` macro isn't as simple as one would expect because I'm clumsy and I found that when I did some 2s after a long 3s session my mind would get used to my party2 keybind (mousewheel down) targetting the bottom unit (of my party frames), but in 2s the bottom unit is party1 - thus I created a macro that would target party2 when there is one, but would otherwise target party1.
 ```
 /target party1
 ```
 
 ```
-/target party2
+/target [@party2, exists][] party1
 ```
 
 ### Dealing with Empyrean Domain's brightness
