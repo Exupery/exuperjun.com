@@ -15,3 +15,4 @@ There's already a wide variety of sites that detail character info so instead of
 * [Arena Master](https://arenamaster.io/us/emerald-dream/exuperjun)
 * [XunaMate](https://www.xunamate.com/#/character/us/emerald-dream/exuperjun)
 * [ArenaMate](https://www.arenamate.net/US/emerald-dream/Exuperjun/history#!2v2)
+* [Data for Azeroth](https://www.dataforazeroth.com/characters/US/Emerald%20Dream/Exuperjun)
